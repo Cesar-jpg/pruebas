@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <h4>Resultado primera prueba</h4>
     <p id="primeraLinea"></p>
     <p id="segundaLinea"></p>
+    <hr>
+    <!-- ////////////////////////////////////// -->
+    <h4>Resultado segunda prueba</h4>
+    <p id="text">Ingrese el numero de rondas a jugar</p>
+    <input type="number" name="" id="numRondas">
+    <button id="guardarRondas">Guardar</button>
+    <p id="infoRondas" hidden>Han sido seleccionadas <b id="totalRondas">0</b> rondas</p>
+    <br>
+    <div id="inputs">
+        <p>Ronda: <b id="rondaActual">0</b></p>
+        <p>Ingrese resultado del <b>jugador uno</b></p>
+        <input type="number" name="" id="jugadorUno">
+        <br>
+        <p>Ingrese resultado del <b>jugador dos</b></p>
+        <input type="number" name="" id="jugadorDos">
+        <br>
+        <br>
+        <button id="guardarResultados">Guardar resultados</button>
+    </div>
+    <div id="resultadoFinal" hidden>
+        <P>Ganador: <p id="ganador"></p></P>
+        <p>Diferencia: <p id="diferencia"></p></p>
+    </div>
+
+    <!-- ////////////////////////////////////// -->
 </body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="script.js"></script>
+
 </html>
